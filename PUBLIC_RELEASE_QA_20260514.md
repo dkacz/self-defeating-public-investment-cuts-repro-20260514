@@ -13,7 +13,7 @@ Date: 2026-05-14
 - GitHub owner/repo: `dkacz/self-defeating-public-investment-cuts-repro-20260514`
 - Visibility: public
 - Initial published commit: `db0de1dee4420b7fe219791ad78c16aa8a10bc7d`
-- Current published commit after public-label repair: `805c2a8f3e605306e7215d55ec2985d7784e0f6e`
+- Public-label code/data repair commit: `805c2a8f3e605306e7215d55ec2985d7784e0f6e`
 - GitHub Pages source: `main:/docs`
 - GitHub Pages build status: `built`
 
@@ -62,10 +62,9 @@ Current repaired local hashes:
 
 ## Strategic Status
 
-The public notebook/repository gate is closed after the public-label repair and
-push to commit `805c2a8f3e605306e7215d55ec2985d7784e0f6e`. Remote raw checks
-confirm that the published first-stage table and notebook QA ledger use the
-public labels, and GitHub Pages status returned `built`.
+The public notebook/repository gate is closed after the public-label repair.
+Remote raw checks confirm that the published first-stage table and notebook QA
+ledger use the public labels, and GitHub Pages status returned `built`.
 
 This does not close the full replacement goal by itself: targeted GPT Pro R8
 harvest, WhatsApp dispatch text, Boox annotation triage after export, and final
