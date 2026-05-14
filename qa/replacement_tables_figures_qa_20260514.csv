@@ -1,0 +1,7 @@
+check,status,detail
+state_rows,PASS,4
+screen_rows,PASS,15
+retained_specs,PASS,"F01,F03"
+debt_rows,PASS,4
+debt_table_includes_eu27_benchmark,PASS,"EU27 panel benchmark,Polish evaluation based on investment import content,Polish evaluation based on household net financial worth,Equal weight average across the two Polish evaluations"
+uses_local_frozen_inputs,PASS,data/frozen/adopted_model_inputs + data/frozen/adopted_run_outputs

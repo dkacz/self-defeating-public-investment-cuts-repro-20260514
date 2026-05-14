@@ -1,0 +1,16 @@
+Spec ID,State-variable subset,Output-interaction p-value,Support p-value,Max abs Poland z,stability,Status
+F01,trade,0.004,0.872,0.161,27/27; 19/19; 3/3,Retained
+F03,liq,0.013,0.441,0.769,27/27; 19/19; 3/3,Retained
+F02,debt,0.120,0.713,0.377,27/27; 19/19; 3/3,Not retained
+F04,log_gdp_pc,0.463,0.946,0.068,27/27; 19/19; 3/3,Not retained
+F12,trade+debt+log_gdp_pc,0.659,0.977,0.377,27/27; 19/19; 3/3,Not retained
+F07,trade+log_gdp_pc,0.676,0.986,0.161,27/27; 19/19; 3/3,Not retained
+F13,trade+liq+log_gdp_pc,0.690,0.839,0.769,27/27; 19/19; 3/3,Not retained
+F06,trade+liq,0.696,0.713,0.769,27/27; 19/19; 3/3,Not retained
+F08,debt+liq,0.805,0.738,0.769,27/27; 19/19; 3/3,Not retained
+F05,trade+debt,0.895,0.903,0.377,27/27; 19/19; 3/3,Not retained
+F09,debt+log_gdp_pc,0.899,0.933,0.377,27/27; 19/19; 3/3,Not retained
+F10,liq+log_gdp_pc,0.906,0.703,0.769,27/27; 19/19; 3/3,Not retained
+F11,trade+debt+liq,0.957,0.871,0.769,27/27; 19/19; 3/3,Not retained
+F14,debt+liq+log_gdp_pc,0.967,0.871,0.769,27/27; 19/19; 3/3,Not retained
+F15,trade+debt+liq+log_gdp_pc,0.976,0.930,0.769,27/27; 19/19; 3/3,Not retained

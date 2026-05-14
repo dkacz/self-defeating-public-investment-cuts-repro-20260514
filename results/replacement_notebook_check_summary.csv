@@ -1,0 +1,25 @@
+check,actual,expected,passed
+four state variables,"{'Real PPP income level', 'Household net financial worth', 'Investment import content', 'Public debt'}","{'Real PPP income level', 'Household net financial worth', 'Investment import content', 'Public debt'}",True
+investment import content Poland z,-0.161,-0.161,True
+net financial worth Poland z,0.769,0.769,True
+real PPP income Poland z,-0.068,-0.068,True
+retained specifications,"{'trade', 'liq'}","{'trade', 'liq'}",True
+real PPP not retained p,0.463,0.463,True
+combined trade debt liq not retained p,0.957,0.957,True
+K_Y h8 investment import content,1.84,1.84,True
+K_Y h8 net financial worth,2.16,2.16,True
+K_Y h8 equal average,2.0,2.0,True
+K_G h8 equal average,0.72,0.72,True
+cut DSA investment import content,4.9,4.9,True
+cut direct investment import content,1.7,1.7,True
+cut DSA net financial worth,6.5,6.5,True
+cut direct net financial worth,4.3,4.3,True
+cut DSA equal average,5.7,5.7,True
+cut direct equal average,3.0,3.0,True
+debt table rows,4,4,True
+EU27 benchmark row present,True,True,True
+cut DSA EU27 benchmark,7.0,7.0,True
+cut direct EU27 benchmark,3.7,3.7,True
+figure exists: figure_intro_dsa_baseline_path.png,True,True,True
+figure exists: moz_full_replacement_ky_paths.png,True,True,True
+figure exists: moz_full_replacement_cut_dsa_margin.png,True,True,True

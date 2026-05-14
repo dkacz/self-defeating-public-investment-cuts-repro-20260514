@@ -1,0 +1,16 @@
+spec_id,features,feature_count
+F01,trade,1
+F02,debt,1
+F03,liq,1
+F04,log_gdp_pc,1
+F05,trade+debt,2
+F06,trade+liq,2
+F07,trade+log_gdp_pc,2
+F08,debt+liq,2
+F09,debt+log_gdp_pc,2
+F10,liq+log_gdp_pc,2
+F11,trade+debt+liq,3
+F12,trade+debt+log_gdp_pc,3
+F13,trade+liq+log_gdp_pc,3
+F14,debt+liq+log_gdp_pc,3
+F15,trade+debt+liq+log_gdp_pc,4

@@ -1,0 +1,66 @@
+check,status,detail
+required:investment import content,PASS,investment import content
+required:household net financial worth,PASS,household net financial worth
+required:real PPP income level,PASS,real PPP income level
+required:h8 import content 1.84,PASS,1.84
+required:h8 net worth 2.16,PASS,2.16
+required:h8 equal average 2.00,PASS,2.00
+required:cut average DSA 5.7,PASS,5.7
+required:real PPP screen p,PASS,p=0.463
+required:combined branch screen p,PASS,p=0.957
+required:Carbonari relevance,PASS,"Carbonari, Farcomeni, Maurici and Trovato (2024)"
+required:M01 structural balance clarification,PASS,endpoint structural balance is close to -10 percent of GDP
+required:domestic debt definition distinction,PASS,national public-debt concept
+required:KG policy scale translation,PASS,one-percentage-point action is the policy scale
+banned:replacement branch,PASS,count=0
+banned:this branch,PASS,count=0
+banned:this draft,PASS,count=0
+banned:draft,PASS,count=0
+banned:previous draft,PASS,count=0
+banned:earlier draft,PASS,count=0
+banned:draft evolution,PASS,count=0
+banned:repair history,PASS,count=0
+banned:audit-round,PASS,count=0
+banned:audit round,PASS,count=0
+banned:we previously,PASS,count=0
+banned:previous version,PASS,count=0
+banned:earlier version,PASS,count=0
+banned:old variable,PASS,count=0
+banned:old baseline,PASS,count=0
+banned:accepted baseline,PASS,count=0
+banned:accepted manuscript,PASS,count=0
+banned:final notebook,PASS,count=0
+banned:internal history,PASS,count=0
+banned:repo,PASS,count=0
+banned:artifact,PASS,count=0
+banned:helper,PASS,count=0
+banned:script,PASS,count=0
+banned:raw column,PASS,count=0
+banned:run output,PASS,count=0
+banned:operator,PASS,count=0
+banned:GPT Pro,PASS,count=0
+banned:Pro R1,PASS,count=0
+banned:Pro R2,PASS,count=0
+banned:Pro R3,PASS,count=0
+banned:Pro R4,PASS,count=0
+banned:former household,PASS,count=0
+banned:accepted model,PASS,count=0
+banned:household credit,PASS,count=0
+banned:household liquidity constraints,PASS,count=0
+banned:trade openness,PASS,count=0
+banned:2.82,PASS,count=0
+banned:1.48,PASS,count=0
+banned:12.4,PASS,count=0
+banned:sensitivity only,PASS,count=0
+banned:replacement-baseline,PASS,count=0
+banned:baseline_frozen,PASS,count=0
+banned:tiva2022,PASS,count=0
+banned:FIGARO,PASS,count=0
+banned:F21,PASS,count=0
+banned:F11,PASS,count=0
+banned:F14,PASS,count=0
+images:present,PASS,count=3
+image_exists:../figures/figure_intro_dsa_baseline_path.png,PASS,figures/figure_intro_dsa_baseline_path.png
+image_exists:../figures/moz_full_replacement_ky_paths.png,PASS,figures/moz_full_replacement_ky_paths.png
+image_exists:../figures/moz_full_replacement_cut_dsa_margin.png,PASS,figures/moz_full_replacement_cut_dsa_margin.png
+overall,PASS,fail_count=0

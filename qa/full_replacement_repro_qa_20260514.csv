@@ -1,0 +1,13 @@
+check,status,detail
+qa_passes:qa/source_rebuild_adopted_state_variables_qa_20260514.csv,PASS,rows=15 bad=0
+qa_passes:qa/adopted_variant_summary_qa_20260514.csv,PASS,rows=10 bad=0
+qa_passes:qa/replacement_tables_figures_qa_20260514.csv,PASS,rows=6 bad=0
+qa_passes:qa/manuscript_replacement_qa_20260514.csv,PASS,rows=65 bad=0
+qa_passes:results/replacement_notebook_check_summary.csv,PASS,rows=24 bad=0
+no_external_parent_dependency_in_table_builder,PASS,
+manifest_valid:data/provenance/adopted_sources_manifest_20260514.csv,PASS,rows=7 bad=0
+manifest_valid:data/provenance/adopted_branch_frozen_inputs_manifest_20260514.csv,PASS,rows=53 bad=0
+manifest_valid:results/adopted_variant_summary_manifest_20260514.csv,PASS,rows=5 bad=0
+manifest_valid:results/replacement_notebook_manifest_20260514.csv,PASS,rows=7 bad=0
+manifest_valid:data/frozen/adopted_run_outputs/feature_screen/source_manifest.csv,PASS,rows=30 bad=0
+manifest_valid:latest_packet_manifest,PASS,not_yet_built
