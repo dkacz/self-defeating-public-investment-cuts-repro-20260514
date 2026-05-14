@@ -26,6 +26,18 @@ def write_table(df: pd.DataFrame, stem: str) -> None:
     (TABLES / f"{stem}.md").write_text(df.to_markdown(index=False) + "\n", encoding="utf-8")
 
 
+FEATURE_LABELS = {
+    "trade": "investment import content",
+    "debt": "public debt",
+    "liq": "household net financial worth",
+    "log_gdp_pc": "real PPP income",
+}
+
+
+def public_feature_label(features: str) -> str:
+    return " + ".join(FEATURE_LABELS.get(part, part) for part in str(features).split("+"))
+
+
 def fmt(v: float, digits: int = 2, signed: bool = False) -> str:
     if signed:
         return f"{v:+.{digits}f}"
@@ -127,11 +139,14 @@ def build_first_stage_tables() -> pd.DataFrame:
     ].rename(
         columns={
             "spec_id": "Spec ID",
-            "features": "State-variable subset",
+            "features": "State-variable subset (public labels)",
             "p_wald_y_h8": "Output-interaction p-value",
             "mahalanobis_support_p": "Support p-value",
             "max_abs_poland_z": "Max abs Poland z",
         }
+    )
+    out["State-variable subset (public labels)"] = out["State-variable subset (public labels)"].map(
+        public_feature_label
     )
     write_table(out, "moz_full_replacement_first_stage_all")
     retained = out[out["Status"] == "Retained"].copy()

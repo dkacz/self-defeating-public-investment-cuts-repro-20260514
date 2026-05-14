@@ -1,11 +1,11 @@
 check,actual,expected,passed
-four state variables,"{'Real PPP income level', 'Household net financial worth', 'Investment import content', 'Public debt'}","{'Real PPP income level', 'Household net financial worth', 'Investment import content', 'Public debt'}",True
+four state variables,"{'Household net financial worth', 'Public debt', 'Real PPP income level', 'Investment import content'}","{'Household net financial worth', 'Public debt', 'Real PPP income level', 'Investment import content'}",True
 investment import content Poland z,-0.161,-0.161,True
 net financial worth Poland z,0.769,0.769,True
 real PPP income Poland z,-0.068,-0.068,True
-retained specifications,"{'trade', 'liq'}","{'trade', 'liq'}",True
+retained specifications,"{'household net financial worth', 'investment import content'}","{'household net financial worth', 'investment import content'}",True
 real PPP not retained p,0.463,0.463,True
-combined trade debt liq not retained p,0.957,0.957,True
+combined investment import content public debt net financial worth not retained p,0.957,0.957,True
 K_Y h8 investment import content,1.84,1.84,True
 K_Y h8 net financial worth,2.16,2.16,True
 K_Y h8 equal average,2.0,2.0,True

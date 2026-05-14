@@ -1,4 +1,4 @@
-| Spec ID   | State-variable subset   |   Output-interaction p-value |   Support p-value |   Max abs Poland z | stability         | Status   |
-|:----------|:------------------------|-----------------------------:|------------------:|-------------------:|:------------------|:---------|
-| F01       | trade                   |                        0.004 |             0.872 |              0.161 | 27/27; 19/19; 3/3 | Retained |
-| F03       | liq                     |                        0.013 |             0.441 |              0.769 | 27/27; 19/19; 3/3 | Retained |
+| Spec ID   | State-variable subset (public labels)   |   Output-interaction p-value |   Support p-value |   Max abs Poland z | stability         | Status   |
+|:----------|:----------------------------------------|-----------------------------:|------------------:|-------------------:|:------------------|:---------|
+| F01       | investment import content               |                        0.004 |             0.872 |              0.161 | 27/27; 19/19; 3/3 | Retained |
+| F03       | household net financial worth           |                        0.013 |             0.441 |              0.769 | 27/27; 19/19; 3/3 | Retained |

@@ -89,12 +89,16 @@ The retained specifications are investment import content and household net fina
         """screen = pd.read_csv(TABLES / 'moz_full_replacement_first_stage_all.csv')
 display(screen)
 
-retained = set(screen.loc[screen['Status'] == 'Retained', 'State-variable subset'])
-record('retained specifications', retained, {'trade', 'liq'})
-real_ppp_p = float(screen.loc[screen['State-variable subset'] == 'log_gdp_pc', 'Output-interaction p-value'].iloc[0])
-combined_p = float(screen.loc[screen['State-variable subset'] == 'trade+debt+liq', 'Output-interaction p-value'].iloc[0])
+subset_col = 'State-variable subset (public labels)'
+retained = set(screen.loc[screen['Status'] == 'Retained', subset_col])
+record('retained specifications', retained, {'investment import content', 'household net financial worth'})
+real_ppp_p = float(screen.loc[screen[subset_col] == 'real PPP income', 'Output-interaction p-value'].iloc[0])
+combined_p = float(screen.loc[
+    screen[subset_col] == 'investment import content + public debt + household net financial worth',
+    'Output-interaction p-value',
+].iloc[0])
 record('real PPP not retained p', round(real_ppp_p, 3), 0.463)
-record('combined trade debt liq not retained p', round(combined_p, 3), 0.957)
+record('combined investment import content public debt net financial worth not retained p', round(combined_p, 3), 0.957)
 """
     ),
     md(
