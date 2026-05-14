@@ -12,15 +12,16 @@ Date: 2026-05-14
 
 - GitHub owner/repo: `dkacz/self-defeating-public-investment-cuts-repro-20260514`
 - Visibility: public
-- Published commit: `db0de1dee4420b7fe219791ad78c16aa8a10bc7d`
+- Initial published commit: `db0de1dee4420b7fe219791ad78c16aa8a10bc7d`
+- Current published commit after public-label repair: `805c2a8f3e605306e7215d55ec2985d7784e0f6e`
 - GitHub Pages source: `main:/docs`
 - GitHub Pages build status: `built`
 
 ## Local Release Checks
 
 - Public release directory: `artifacts/action_tasks/manuscript_imrad_20260427/public_repro_release_mozdzen_20260514/`
-- Published file count: 105 after adding the landing page.
-- Local file count: 106 including this QA report.
+- Published file count: 106 after the public-label repair and QA report push.
+- Local file count: 106.
 - Approximate size: 7.5 MB.
 - Full local reproducibility command from the release root returned:
 
@@ -61,9 +62,11 @@ Current repaired local hashes:
 
 ## Strategic Status
 
-The public notebook/repository gate is closed locally after the public-label
-repair. It still requires pushing the repaired package to the public GitHub
-repository before the WhatsApp link can be treated as final. This does not close
-the full replacement goal by itself: targeted GPT Pro R8 harvest, WhatsApp
-dispatch text, Boox annotation triage after export, and final git cleanup remain
-separate gates.
+The public notebook/repository gate is closed after the public-label repair and
+push to commit `805c2a8f3e605306e7215d55ec2985d7784e0f6e`. Remote raw checks
+confirm that the published first-stage table and notebook QA ledger use the
+public labels, and GitHub Pages status returned `built`.
+
+This does not close the full replacement goal by itself: targeted GPT Pro R8
+harvest, WhatsApp dispatch text, Boox annotation triage after export, and final
+git cleanup remain separate gates.
